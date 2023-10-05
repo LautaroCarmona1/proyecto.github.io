@@ -1,0 +1,168 @@
+header{
+    background-color:  rgb(54, 61, 54);
+    color: white;
+    width: 100%;
+    height: 100px;
+   
+}
+.titulo1{
+    margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ margin-top: -45px;
+   padding-left: 130px;
+   margin-bottom: 40px;
+   font-size: 25px;
+
+}
+
+.titulo2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    margin-top: -70px;
+      padding-left: 500px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content:space-around;
+      
+      text-align: right;
+      
+}
+
+.codoacodo{
+    padding: 0px;
+    width: 120px;
+    height: 50px;
+}
+
+
+.texto{
+    position: absolute;
+    margin-top: -300px;
+    color: white;
+    text-align: right;
+    padding-left: 500px;
+    padding-right: 100px;
+}
+.texto1{
+    position: absolute;
+    margin-top: -420px;
+    color: white;
+    text-align: right;
+    padding-left: 550px;
+    padding-right: 100px;
+}
+
+.imagen1{
+    height: 700px;
+    width: 1350px;
+    
+    
+}
+
+.botonera{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 940px;
+    
+    
+}
+.siguiente{
+    
+    text-align: center;
+    color:gray;
+    font-size: 20px;
+}
+.cartas{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen2{
+    width: 50%;
+    height: 400px;
+    background-color: black;
+
+}
+.siguiente2{
+    background-color:rgb(66, 62, 80);
+    margin: 10px;
+    width:1350px;
+}
+h3{
+    text-align: center;
+    margin-top: -390px ;
+    padding-left: 320px;
+    color: white;
+}
+.texto2{
+    color: white;
+    padding-left: 690px;
+    font-size: 15px;
+    
+}
+
+h4{
+    margin-top: 230px;
+    font-size: 12px;
+    text-align: center;
+    color: grey;
+
+}
+
+.final{
+    background-color:rgb(21, 69, 88) ;
+    color: white;
+    width: 1350px;
+    height: 70px;
+}
+.boton{
+    color: white;
+    background-color: rgb(126, 204, 53);
+    width: 50%;
+    border-radius: 5px;
+    height: 50px;
+    
+}
+.titulo3{
+    padding-top: 25px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#inputNombre {
+    width: 74.5%;
+    margin-top: -25px;
+  
+  }
+
+  #inputApellido {
+    width: 74.5%;
+  margin-top: -25px;
+  }
+  textarea{
+height: 70px;
+
+  }
+  
+ .mensaje p{
+text-align: left;
+margin-left: 340px;
+margin-top: 5px;
+font-size: 10px;
+color: gray;
+  }
+  
+ .btn-success{
+
+  background-color: var(--colorbtn);
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+@media screen and (max-width:700px){
+
+  form{
+    flex-direction: row;
+  
+  }
+}
